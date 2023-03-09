@@ -17,7 +17,7 @@ describe("Square", () => {
       square.setShapeColor("red");
 
       expect(square.render()).toBe(
-        `<rect x="10" y="10" width="30" height="30" fill="red"/>`
+        `<rect x="70" y="25" width="150" height="150" fill="red"/>`
       );
     });
   });
